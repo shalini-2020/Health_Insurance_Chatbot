@@ -1,4 +1,4 @@
-x`# Health Insurance Chatbot
+# Health Insurance Chatbot
 
 ### Introduction
 
@@ -33,7 +33,31 @@ Before using the Llama2 Medical Bot, make sure to have the following prerequisit
     ```bash
     pip install -r requirements.txt
     ```
+### Description
 
+The architecture of the project is divided into two main parts: the backend and the frontend.
+
+Backend:
+
+1. Data Ingestion: The backend starts with ingesting data from a medical book in PDF format.
+2. Data Extraction: The data from the PDF is then extracted and processed.
+3. Text Chunking: The extracted data is broken down into smaller chunks or parts. These chunks are then fed into the model.
+4. Embedding: Each chunk of text is converted into a vector representation, known as embedding.
+5. Semantic Index Building: A semantic index is built to connect these vectors, which aids in understanding the context and meaning of the text chunks.
+6. Knowledge Base: The embeddings are stored in FAISS, a vector database.
+   
+Frontend:
+
+1. User Query Processing: When a user asks a question, it is converted into a query embedding.
+2. Knowledge Base Lookup: This query embedding is used to search the knowledge base for the most relevant information.
+3. LLM Model Processing: The ranked results from the knowledge base are then passed through the LLM (Llama-2) model.
+4. User Answer Generation: Finally, the model generates an answer to the user's question based on the information it has processed.
+
+### Usage
+
+To use the Health Insurance Chat App, follow these steps:
+
+1. Run the '''bash app.py '''bash
 
 
 
