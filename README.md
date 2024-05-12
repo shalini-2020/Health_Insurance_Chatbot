@@ -17,6 +17,7 @@ Before using the Llama2 Medical Bot, make sure to have the following prerequisit
 ### Installation
 
 1. Clone this repository to your local machine.
+
    git clone https://github.com/your-username/langchain-medical-bot.git
    cd langchain-medical-bot
 
