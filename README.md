@@ -2,18 +2,23 @@
 
 ### Introduction
 
-The Health Insurance ChatBot is a Python application that allows you to chat with multiple PDF documents. You can ask questions about the PDFs on health insurance policies and treatment. The application will provide relevant responses based on the content of the documents. This app utilizes a language model to generate answers to your queries. Please note that the app will only respond to questions related to the loaded PDFs.
+The Health Insurance ChatBot is a Python application that allows to chat with multiple PDF documents. You can ask questions about the PDFs on health insurance policies and treatment. The application will provide relevant responses based on the content of the documents. This app utilizes a language model to generate answers to queries. Please note that the app will only respond to questions related to the loaded PDFs.
 
-### Prerequisites
+### Prerequisites - Tech Stacks
 
-Before you can start using the Llama2 Medical Bot, make sure you have the following prerequisites installed on your system:
+Before using the Llama2 Medical Bot, make sure to have the following prerequisites installed on the system:
 
-Python 3.6 or higher
-Required Python packages (you can install them using pip):
-langchain
-chainlit
-sentence-transformers
-faiss
-PyPDF2 (for PDF document loading)
+1. Python 3.6 or higher
+2. Framework - Langchain
+3. Frontend/webapp - Flask, HTML, CSS
+4. LLM - meta llama 2
+5. Vector DB - FAISS
+
+### Installation
+
+1. Clone this repository to your local machine.
+   git clone https://github.com/your-username/langchain-medical-bot.git
+   cd langchain-medical-bot
+
 
 
