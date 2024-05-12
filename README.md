@@ -19,8 +19,8 @@ Before using the Llama2 Medical Bot, make sure to have the following prerequisit
 1. Clone this repository to your local machine.
 
    ```bash
-    git clone https://github.com/your-username/langchain-medical-bot.git
-    cd langchain-medical-bot
+    git clone https://github.com/shalini-2020/Health_Insurance_Chatbot.git
+    cd Health_Insurance_Chatbot
     ```
 
 
