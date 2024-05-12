@@ -4,6 +4,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 import settings
 
+# Load and preprocess the PDF document
 def loaddata():
     loader = DirectoryLoader(settings.data_path,
                     glob="*.pdf",
@@ -11,7 +12,7 @@ def loaddata():
     files = loader.load()
     return files
 
-
+# Split the documents into smaller chunks for processing
 def docsplit(extracted_data):
     
     text_splitter = CharacterTextSplitter(
@@ -29,6 +30,7 @@ def  hugging_face_embeddings():
                                        model_kwargs={'device': 'cpu'})
     return embeddings
 
+# Create vector database
 def create_vectordb():
     docs = loaddata()
     doc_chunk = docsplit(docs)
