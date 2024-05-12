@@ -6,7 +6,7 @@ from langchain.chains import RetrievalQA
 from langchain_community.vectorstores import FAISS
 from langchain_community.llms import Replicate
 from prompt import *
-
+import os
 
 app = Flask(__name__)
 

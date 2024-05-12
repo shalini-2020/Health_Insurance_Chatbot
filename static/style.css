@@ -13,7 +13,7 @@ body,html{
 .card{
 	height: 500px;
 	border-radius: 15px !important;
-	background-color: rgba(0,0,0,0.4) !important;
+	background-color: rgb(250, 248, 248) !important;
 }
 .contacts_body{
 	padding:  0.75rem 0 !important;
@@ -36,9 +36,9 @@ border-radius: 0 0 15px 15px !important;
 }
 .search{
 	border-radius: 15px 0 0 15px !important;
-	background-color: rgba(0,0,0,0.3) !important;
+	background-color: white !important;
 	border:0 !important;
-	color:white !important;
+	color: white !important;
 }
 .search:focus{
 	 box-shadow:none !important;
@@ -47,7 +47,7 @@ border-radius: 0 0 15px 15px !important;
 .type_msg{
 	background-color: rgba(0,0,0,0.3) !important;
 	border:0 !important;
-	color:white !important;
+	color:rgb(31, 27, 27) !important;
 	height: 60px !important;
 	overflow-y: auto;
 }
@@ -86,7 +86,7 @@ border-radius: 0 0 15px 15px !important;
 	margin-bottom: 15px !important;
 }
 .active{
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(173, 58, 83, 0.3);
 }
 .user_img{
 	height: 70px;
@@ -129,18 +129,18 @@ border-radius: 0 0 15px 15px !important;
 }
 .user_info span{
 	font-size: 20px;
-	color: white;
+	color:  rgb(44, 47, 59);
 }
 .user_info p{
 	font-size: 10px;
-	color: rgba(255,255,255,0.6);
+	color: rgb(44, 47, 59);
 }
 .video_cam{
 	margin-left: 50px;
 	margin-top: 5px;
 }
 .video_cam span{
-	color: white;
+	color: rgb(108, 10, 10);
 	font-size: 20px;
 	cursor: pointer;
 	margin-right: 20px;
@@ -167,14 +167,14 @@ border-radius: 0 0 15px 15px !important;
 	position: absolute;
 	left: 0;
 	bottom: -15px;
-	color: rgba(255,255,255,0.5);
+	color: rgb(44, 47, 59);
 	font-size: 10px;
 }
 .msg_time_send{
 	position: absolute;
 	right:0;
 	bottom: -15px;
-	color: rgba(255,255,255,0.5);
+	color: rgb(44, 47, 59);
 	font-size: 10px;
 }
 .msg_head{
@@ -192,7 +192,7 @@ border-radius: 0 0 15px 15px !important;
 	z-index: 1;
 	position: absolute;
 	padding: 15px 0;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(157, 37, 37, 0.5);
 	color: white;
 	border-radius: 15px;
 	top: 30px;
