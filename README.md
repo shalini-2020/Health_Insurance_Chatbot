@@ -57,7 +57,7 @@ Frontend:
 
 To use the Health Insurance Chat App, follow these steps:
 
-1. Run the '''bash app.py '''bash
+1. Run the ```bash app.py```
 
 
 
