@@ -15,12 +15,12 @@ embeddings = data_injest.hugging_face_embeddings()
 docsearch = FAISS.load_local(settings.db_vector_path,embeddings,allow_dangerous_deserialization=True)
 
 # Build custom prompts
-PROMPT=PromptTemplate(template=ptemplate, input_variables=["context", "question"])
+PROMPT=PromptTemplate(template=prompt_template, input_variables=["context", "question"])
 chain_type_kwargs={"prompt": PROMPT}
 
 # Initialize Replicate Llama2 Model
 llm = Replicate(
-    model="a16z-infra/llama13b-v2-chat:df7690f1994d94e96ad9d568eac121aecf50684a0b0963b25a41cc40061269e5",
+    model="meta/meta-llama-3-70b-instruct",
     model_kwargs={"temperature": 0.75, "max_new_tokens": 4096}
 )
 
