@@ -62,5 +62,8 @@ To use the Health Insurance Chat App, follow these steps:
 python app.py
 ```
 
+### Output
+
+![Health Insurance output](./sample/sample.jpg)
 
 
