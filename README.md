@@ -33,6 +33,8 @@ Before using the Llama2 Health Insurance Bot, make sure to have the following pr
     ```bash
     pip install -r requirements.txt
     ```
+5. Paste the Replicate API key in the ```settings.py``` in the corresponding variable.
+   
 ### Description
 
 The architecture of the project is divided into two main parts: the backend and the frontend.
