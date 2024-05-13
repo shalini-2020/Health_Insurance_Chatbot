@@ -27,7 +27,7 @@ Before using the Llama2 Health Insurance Bot, make sure to have the following pr
 3. Create a Python virtual environment (optional but recommended):
     ```bash
     python -m venv insurance
-    source .insurance/bin/activate  # On Windows, use: insurance\Scripts\activate
+    source .insurance/bin/activate  # On Windows, use: .\insurance\Scripts\activate
     ```
 4. Install the required Python packages:
     ```bash
