@@ -2,21 +2,21 @@
 
 ### Introduction
 
-The Health Insurance ChatBot is built using the Llama-2 model. The primary goal of this chatbot is to provide accurate and relevant health insurance-related information to users based on their queries. You can ask questions on health insurance policies, treatment, emergency services etc.. The application will provide relevant responses based on the knowledge base. Please note that the app will only respond to questions related to insurance and health care.
+The Health Insurance ChatBot is built using the Llama-3 model. The primary goal of this chatbot is to provide accurate and relevant health insurance-related information to users based on their queries. You can ask questions on health insurance policies, treatment, emergency services etc.. The application will provide relevant responses based on the knowledge base. Please note that the app will only respond to questions related to insurance and health care.
 
 ### Prerequisites - Tech Stacks
 
-Before using the Llama2 Health Insurance Bot, make sure to have the following prerequisites installed on the system:
+Before using the Llama3 Health Insurance Bot, make sure to have the following prerequisites installed on the system:
 
 1. Python 3.8 or higher
 2. Framework - Langchain
 3. Frontend/webapp - Flask, HTML, CSS
-4. LLM - meta llama 2
+4. LLM - meta llama 3
 5. Vector DB - FAISS
 
 ### Installation
 
-1. Replicate API Key: This is how we will apply the Llama2 model for our chatbot. Go to the Replicate website and sign up. Once you are signed up and logged in, navigate to this link to see your API Key:    https://replicate.com/account/api-tokens. Copy the key and save it for later.
+1. Replicate API Key: This is how we will apply the Llama3 model for our chatbot. Go to the Replicate website and sign up. Once you are signed up and logged in, navigate to this link to see your API Key:    https://replicate.com/account/api-tokens. Copy the key and save it for later.
    
 2. Clone this repository to your local machine.
 
@@ -54,7 +54,7 @@ The architecture of the project is divided into two main parts: the backend and 
 
 1. User Query Processing: When a user asks a question, it is converted into a query embedding.
 2. Knowledge Base Lookup: This query embedding is used to search the knowledge base for the most relevant result.
-3. LLM Model Processing: The ranked results from the knowledge base are then passed through the LLM (Llama-2) model.
+3. LLM Model Processing: The ranked results from the knowledge base are then passed through the LLM (Llama-3) model.
 4. User Answer Generation: Finally, the model generates an answer to the user's question based on the information it has processed.
 
 ### Usage
