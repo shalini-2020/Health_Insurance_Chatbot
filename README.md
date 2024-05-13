@@ -34,6 +34,8 @@ Before using the Llama2 Health Insurance Bot, make sure to have the following pr
     pip install -r requirements.txt
     ```
 5. Paste the Replicate API key in the ```settings.py``` in the corresponding variable.
+
+6. Installation Completed.
    
 ### Description
 
