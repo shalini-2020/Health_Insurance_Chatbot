@@ -2,11 +2,11 @@
 
 ### Introduction
 
-The Health Insurance ChatBot is a Python application that allows to chat with multiple PDF documents. You can ask questions about the PDFs on health insurance policies and treatment. The application will provide relevant responses based on the content of the documents. This app utilizes a language model to generate answers to queries. Please note that the app will only respond to questions related to the loaded PDFs.
+The Health Insurance ChatBot is built using the Llama-2 model. The primary goal of this chatbot is to provide accurate and relevant health insurance-related information to users based on their queries. You can ask questions on health insurance policies, treatment, emergency services etc.. The application will provide relevant responses based on the knowledge base. Please note that the app will only respond to questions related to insurance and health care.
 
 ### Prerequisites - Tech Stacks
 
-Before using the Llama2 Medical Bot, make sure to have the following prerequisites installed on the system:
+Before using the Llama2 Health Insurance Bot, make sure to have the following prerequisites installed on the system:
 
 1. Python 3.8 or higher
 2. Framework - Langchain
@@ -37,19 +37,19 @@ Before using the Llama2 Medical Bot, make sure to have the following prerequisit
 
 The architecture of the project is divided into two main parts: the backend and the frontend.
 
-Backend:
+#### Backend:
 
-1. Data Ingestion: The backend starts with ingesting data from a medical book in PDF format.
+1. Data Ingestion: The backend starts with ingesting data from a set of documents.
 2. Data Extraction: The data from the PDF is then extracted and processed.
 3. Text Chunking: The extracted data is broken down into smaller chunks or parts. These chunks are then fed into the model.
 4. Embedding: Each chunk of text is converted into a vector representation, known as embedding.
 5. Semantic Index Building: A semantic index is built to connect these vectors, which aids in understanding the context and meaning of the text chunks.
 6. Knowledge Base: The embeddings are stored in FAISS, a vector database.
    
-Frontend:
+#### Frontend:
 
 1. User Query Processing: When a user asks a question, it is converted into a query embedding.
-2. Knowledge Base Lookup: This query embedding is used to search the knowledge base for the most relevant information.
+2. Knowledge Base Lookup: This query embedding is used to search the knowledge base for the most relevant result.
 3. LLM Model Processing: The ranked results from the knowledge base are then passed through the LLM (Llama-2) model.
 4. User Answer Generation: Finally, the model generates an answer to the user's question based on the information it has processed.
 
