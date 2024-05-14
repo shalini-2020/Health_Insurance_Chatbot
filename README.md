@@ -24,7 +24,7 @@ Before using the Llama3 Health Insurance Bot, make sure to have the following pr
     git clone https://github.com/shalini-2020/Health_Insurance_Chatbot.git
     cd Health_Insurance_Chatbot
     ```
-3. Create a Python virtual environment (optional but recommended):
+3. Create a Python virtual environment:
     ```bash
     python -m venv insurance
     source .insurance/bin/activate  # On Windows, use: .\insurance\Scripts\activate
